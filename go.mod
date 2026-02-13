@@ -189,3 +189,7 @@ require (
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 )
+
+replace charm.land/fantasy => github.com/okhsunrog/fantasy v0.7.3-0.20260213161815-b6bfc0c14971
+
+replace github.com/charmbracelet/anthropic-sdk-go => github.com/okhsunrog/anthropic-sdk-go v0.0.0-20260213161657-f7705a8727fa

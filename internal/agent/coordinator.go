@@ -281,8 +281,7 @@ func getProviderOptions(model Model, providerCfg config.ProviderConfig) fantasy.
 		_, hasThink := mergedOptions["thinking"]
 		if !hasThink && model.ModelCfg.Think {
 			mergedOptions["thinking"] = map[string]any{
-				// TODO: kujtim see if we need to make this dynamic
-				"budget_tokens": 2000,
+				"type": "adaptive",
 			}
 		}
 		parsed, err := anthropic.ParseOptions(mergedOptions)
@@ -775,15 +774,6 @@ func (c *coordinator) buildProvider(providerCfg config.ProviderConfig, model con
 	headers := maps.Clone(providerCfg.ExtraHeaders)
 	if headers == nil {
 		headers = make(map[string]string)
-	}
-
-	// handle special headers for anthropic
-	if providerCfg.Type == anthropic.Name && c.isAnthropicThinking(model) {
-		if v, ok := headers["anthropic-beta"]; ok {
-			headers["anthropic-beta"] = v + ",interleaved-thinking-2025-05-14"
-		} else {
-			headers["anthropic-beta"] = "interleaved-thinking-2025-05-14"
-		}
 	}
 
 	apiKey, _ := c.cfg.Resolve(providerCfg.APIKey)

@@ -4,8 +4,6 @@ charm.land/bubbletea/v2 v2.0.0-rc.2.0.20260209074636-30878e43d7b0 h1:HAbpM9TPjZM
 charm.land/bubbletea/v2 v2.0.0-rc.2.0.20260209074636-30878e43d7b0/go.mod h1:3LRff2U4WIYXy7MTxfbAQ+AdfM3D8Xuvz2wbsOD9OHQ=
 charm.land/catwalk v0.17.1 h1:UsHvBi3S7CxONiIZTWKTXM+H9qla8I0fCb/SVru33ms=
 charm.land/catwalk v0.17.1/go.mod h1:kAdk/GjAJbl1AjRjmfU5c9lZfs7PeC3Uy9TgaVtlN64=
-charm.land/fantasy v0.7.2 h1:OUBgbs7hllZE7rpJP9SzdsGE/hMCm+mr11iEIqU02hE=
-charm.land/fantasy v0.7.2/go.mod h1:vH6F5eYqaxgNEvDQdXRsOsfvoRyT3f/uJngPNJmcDmw=
 charm.land/glamour/v2 v2.0.0-20260123212943-6014aa153a9b h1:A6IUUyChZDWP16RUdRJCfmYISAKWQGyIcfhZJUCViQ0=
 charm.land/glamour/v2 v2.0.0-20260123212943-6014aa153a9b/go.mod h1:J3kVhY6oHXZq5f+8vC3hmDO95fEvbqj3z7xDwxrfzU8=
 charm.land/lipgloss/v2 v2.0.0-beta.3.0.20251205162909-7869489d8971 h1:xZFcNsJMiIDbFtWRyDmkKNk1sjojfaom4Zoe0cyH/8c=
@@ -96,8 +94,6 @@ github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UF
 github.com/cespare/xxhash/v2 v2.3.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/charlievieth/fastwalk v1.0.14 h1:3Eh5uaFGwHZd8EGwTjJnSpBkfwfsak9h6ICgnWlhAyg=
 github.com/charlievieth/fastwalk v1.0.14/go.mod h1:diVcUreiU1aQ4/Wu3NbxxH4/KYdKpLDojrQ1Bb2KgNY=
-github.com/charmbracelet/anthropic-sdk-go v0.0.0-20251024181547-21d6f3d9a904 h1:rwLdEpG9wE6kL69KkEKDiWprO8pQOZHZXeod6+9K+mw=
-github.com/charmbracelet/anthropic-sdk-go v0.0.0-20251024181547-21d6f3d9a904/go.mod h1:8TIYxZxsuCqqeJ0lga/b91tBwrbjoHDC66Sq5t8N2R4=
 github.com/charmbracelet/colorprofile v0.4.1 h1:a1lO03qTrSIRaK8c3JRxJDZOvhvIeSco3ej+ngLk1kk=
 github.com/charmbracelet/colorprofile v0.4.1/go.mod h1:U1d9Dljmdf9DLegaJ0nGZNJvoXAhayhmidOdcBwAvKk=
 github.com/charmbracelet/fang v0.4.4 h1:G4qKxF6or/eTPgmAolwPuRNyuci3hTUGGX1rj1YkHJY=
@@ -277,6 +273,10 @@ github.com/ncruces/julianday v1.0.0 h1:fH0OKwa7NWvniGQtxdJRxAgkBMolni2BjDHaWTxqt
 github.com/ncruces/julianday v1.0.0/go.mod h1:Dusn2KvZrrovOMJuOt0TNXL6tB7U2E8kvza5fFc9G7g=
 github.com/nxadm/tail v1.4.11 h1:8feyoE3OzPrcshW5/MJ4sGESc5cqmGkGCWlco4l0bqY=
 github.com/nxadm/tail v1.4.11/go.mod h1:OTaG3NK980DZzxbRq6lEuzgU+mug70nY11sMd4JXXHc=
+github.com/okhsunrog/anthropic-sdk-go v0.0.0-20260213161657-f7705a8727fa h1:sGuXVSF1/doOZOvxrBFStmtfhvUN2G3kFVa4eE4EWRk=
+github.com/okhsunrog/anthropic-sdk-go v0.0.0-20260213161657-f7705a8727fa/go.mod h1:8TIYxZxsuCqqeJ0lga/b91tBwrbjoHDC66Sq5t8N2R4=
+github.com/okhsunrog/fantasy v0.7.3-0.20260213161815-b6bfc0c14971 h1:qs/6fckuap1llGY/A+gRU8+UTb8CeSFQpfDWNWbXpSA=
+github.com/okhsunrog/fantasy v0.7.3-0.20260213161815-b6bfc0c14971/go.mod h1:Uh/hV8d/4dzAMA8hCKdZeTavvsAi4j+aUIQnQuFn298=
 github.com/openai/openai-go/v2 v2.7.1 h1:/tfvTJhfv7hTSL8mWwc5VL4WLLSDL5yn9VqVykdu9r8=
 github.com/openai/openai-go/v2 v2.7.1/go.mod h1:jrJs23apqJKKbT+pqtFgNKpRju/KP9zpUTZhz3GElQE=
 github.com/pelletier/go-toml/v2 v2.2.4 h1:mye9XuhQ6gvn5h28+VilKrrPoQVanw5PMw/TB0t5Ec4=
