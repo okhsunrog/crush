@@ -280,8 +280,16 @@ func getProviderOptions(model Model, providerCfg config.ProviderConfig) fantasy.
 	case anthropic.Name:
 		_, hasThink := mergedOptions["thinking"]
 		if !hasThink && model.ModelCfg.Think {
-			mergedOptions["thinking"] = map[string]any{
-				"type": "adaptive",
+			if strings.Contains(model.CatwalkCfg.ID, "claude-sonnet-4-6") ||
+				strings.Contains(model.CatwalkCfg.ID, "claude-opus-4-6") {
+				mergedOptions["thinking"] = map[string]any{
+					"type": "adaptive",
+				}
+			} else {
+				mergedOptions["thinking"] = map[string]any{
+					"type":          "enabled",
+					"budget_tokens": 4096,
+				}
 			}
 		}
 		parsed, err := anthropic.ParseOptions(mergedOptions)
